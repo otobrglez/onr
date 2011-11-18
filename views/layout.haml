@@ -1,7 +1,21 @@
 !!!
 %html
 	%head
+		%title ON'R
+		%link(href="/a.css" media="screen" rel="stylesheet" type="text/css")/
 	%body
-		%h1 Hi!
-		%p Test me biatch ;)
-		=yield
+		.wrap
+			.header
+				#logo
+					%a(href="http://onr.opalab.com")
+						ON'R - Oto and Najk Runnin'
+			.main
+				=yield
+			.footer
+				%p
+					Experiment by
+					%a(href="http://opalab.com") opalab.com
+					\- just for fun ;)
+					\- nov 2011
+					\- 
+					%a(href="http://twitter.com/otobrglez") @otobrglez
