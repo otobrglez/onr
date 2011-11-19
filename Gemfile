@@ -13,9 +13,12 @@ end
 
 group :development do
 	gem 'shotgun'
-	gem 'dm-sqlite-adapter'
+	gem 'dm-mysql-adapter'
+	gem 'ruby-debug19', :require => 'ruby-debug'
+	gem 'rack-test'
 end
 
 group :test do
-	gem "rspec"
+	gem 'rspec'
+	gem 'rack-test'
 end

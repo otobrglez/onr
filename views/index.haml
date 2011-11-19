@@ -1,8 +1,10 @@
+
+%a(href="/new") New track
+ 
 - if @tracks.empty?
 	%p No tracks
 - else
 	%ul
 		- @tracks.each do |track|
 			%li
-				=track.raw
-				=track.created_at
+				=track
