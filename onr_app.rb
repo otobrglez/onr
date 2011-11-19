@@ -13,4 +13,8 @@ class OnrApp < Sinatra::Base
 		haml :index
 	end
 
+	get '/env' do
+		ENV["RACK_ENV"]
+	end
+
 end
