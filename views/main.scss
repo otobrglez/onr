@@ -27,8 +27,8 @@ body{
 	div.wrap{
 		text-align:left;
 		display:block;
-		margin:0px auto;
 		max-width:$width;
+		margin:0px auto;
 	}
 }
 
@@ -48,7 +48,7 @@ div#logo{
 .header, .footer, .main{
 	display:block;
 	padding:10px;
-	width:$width - 20px;
+	max-width:$width - 20px;
 }
 
 .footer{
